@@ -19,3 +19,6 @@ let b = x.split("").reverse().join
 // !!! STACKOVERFLOW!!! 
 var c = [x.slice(0,2), x.slice(2)].join('')
 console.log(c)
+
+s.split(" ") // it divides a string  into an ordered list of substrings, puts them into an array, and returns the array
+// ("") - here comes where to split the string

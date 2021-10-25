@@ -36,3 +36,11 @@ let n = 2 // number of items to be removed
 let removedItems = myArray.splice(pos, n) // removing items from an array, starting at index toward the end
 
 let myCopiedArray = myArray.slice() // copy an array
+
+array.sort() // sorts the elements of an array, and returns the sorted array
+// the default sort order is ascending
+
+array.reverse() //reverses an array, the first element becomes the last, and the last element becomes the first.
+
+array.join() //creates and returns a new string by concatenating all of the elements in an array
+// () - here comes how to separate the elements - (), (""), (" "), ("-")
